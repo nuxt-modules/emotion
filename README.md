@@ -30,8 +30,9 @@
 **IMPORTANT NOTE:** This module requres new hooks that works with nuxt `2.5.0` or `nuxt-edge` only.
 
 - Add `@nuxtjs/emotion` dependency using yarn or npm to your project
-window.$emotionSSRIds section of `nuxt.config.js`
-window.$emotionSSRIds
+
+- Add `@nuxtjs/emotion` to the `modules` section of `nuxt.config.js`
+
 ```js
 {
   modules: [
