@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic / (normal) 1`] = `
+"<!doctype html>
+<html data-n-head-ssr data-n-head=\\"\\">
+  <head data-n-head=\\"\\">
+    <title data-n-head=\\"true\\"></title><style data-vue-ssr-id=\\"17cfdfa9:0\\">.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}</style><style>@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');html,body{font-family:'Source Sans Pro',sans-serif;color:#0a1f44;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:100vh;text-align:center;}a{padding:.5em;border:1px solid grey;border-radius:.3em;color:#0a1f44;-webkit-text-decoration:none;text-decoration:none;}.css-yvzegq-primaryStyle{color:#42b883;}.css-6lfoq3-logoStyle{font-size:60px;}</style><script>window.$emotionSSRIds = [\\"1qjmn0x\\",\\"yvzegq-primaryStyle\\",\\"6lfoq3-logoStyle\\"]</script>
+  </head>
+  <body data-n-head=\\"\\">
+    <div data-server-rendered=\\"true\\" id=\\"__nuxt\\"><!----><div id=\\"__layout\\"><div><div><h1 class=\\"css-6lfoq3-logoStyle\\">
+    Nuxt
+    <span class=\\"css-yvzegq-primaryStyle\\">
+      JS
+    </span></h1> <h1>
+    The
+    <span class=\\"css-yvzegq-primaryStyle\\">
+      Vue.js
+    </span>
+    Framework
+  </h1></div> <a href=\\"/\\" class=\\"nuxt-link-active\\">
+    Go Pink
+  </a></div></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true};</script><script src=\\"/_nuxt/70b87690168d49b763d4.js\\" defer></script><script src=\\"/_nuxt/2f34714a3716d9cd40e3.js\\" defer></script><script src=\\"/_nuxt/9de0db02460713695069.js\\" defer></script><script src=\\"/_nuxt/21afeb84309963f6c07e.js\\" defer></script><script src=\\"/_nuxt/da65cb3c212d7ca40786.js\\" defer></script>
+  </body>
+</html>
+"
+`;
+
+exports[`basic / (pink) 1`] = `
+"<!doctype html>
+<html data-n-head-ssr data-n-head=\\"\\">
+  <head data-n-head=\\"\\">
+    <title data-n-head=\\"true\\"></title><style data-vue-ssr-id=\\"17cfdfa9:0\\">.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}</style><style>@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');html,body{font-family:'Source Sans Pro',sans-serif;color:#0a1f44;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:100vh;text-align:center;}a{padding:.5em;border:1px solid grey;border-radius:.3em;color:#0a1f44;-webkit-text-decoration:none;text-decoration:none;}.css-yvzegq-primaryStyle{color:#42b883;}.css-6lfoq3-logoStyle{font-size:60px;}.css-14rgxem-pinkStyle{color:hotpink;}</style><script>window.$emotionSSRIds = [\\"1qjmn0x\\",\\"yvzegq-primaryStyle\\",\\"6lfoq3-logoStyle\\",\\"14rgxem-pinkStyle\\"]</script>
+  </head>
+  <body data-n-head=\\"\\">
+    <div data-server-rendered=\\"true\\" id=\\"__nuxt\\"><!----><div id=\\"__layout\\"><div class=\\"css-14rgxem-pinkStyle\\"><div><h1 class=\\"css-6lfoq3-logoStyle\\">
+    Nuxt
+    <span class=\\"css-yvzegq-primaryStyle\\">
+      JS
+    </span></h1> <h1>
+    The
+    <span class=\\"css-yvzegq-primaryStyle\\">
+      Vue.js
+    </span>
+    Framework
+  </h1></div> <a href=\\"/normal\\">
+    Go Normal
+  </a></div></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true};</script><script src=\\"/_nuxt/70b87690168d49b763d4.js\\" defer></script><script src=\\"/_nuxt/234f0971593886e69b0c.js\\" defer></script><script src=\\"/_nuxt/9de0db02460713695069.js\\" defer></script><script src=\\"/_nuxt/21afeb84309963f6c07e.js\\" defer></script><script src=\\"/_nuxt/da65cb3c212d7ca40786.js\\" defer></script>
+  </body>
+</html>
+"
+`;
