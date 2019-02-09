@@ -1,6 +1,6 @@
 <p align="center" style="color: #343a40">
   <img src="https://cdn.rawgit.com/tkh44/emotion/master/emotion.png" alt="emotion" height="150" width="150">
-  <h1 align="center">emotion module</h1>
+  <h1 align="center">Emotion Module</h1>
 </p>
 
 [![npm version][npm-version-src]][npm-version-href]
@@ -10,12 +10,7 @@
 [![Dependencies][david-dm-src]][david-dm-href]
 [![Standard JS][standard-js-src]][standard-js-href]
 
-> [Emotion Support](https://emotion.sh) for Nuxt.js
-
-[📖 **Release Notes**](./CHANGELOG.md)
-
-
-**IMPORTANT NOTE:** This module requres special new hooks that works with nuxt `2.5.0` or `nuxt-edge` only.
+[Emotion](https://emotion.sh) support for Nuxt.js
 
 ## Features
 
@@ -28,7 +23,11 @@
 - Source Maps
 - Contextual Class Names
 
+[📖 **Release Notes**](./CHANGELOG.md)
+
 ## Setup
+
+**IMPORTANT NOTE:** This module requres new hooks that works with nuxt `2.5.0` or `nuxt-edge` only.
 
 - Add `@nuxtjs/emotion` dependency using yarn or npm to your project
 window.$emotionSSRIds section of `nuxt.config.js`
