@@ -1,4 +1,7 @@
-# Emotion Module
+<p align="center" style="color: #343a40">
+  <img src="https://cdn.rawgit.com/tkh44/emotion/master/emotion.png" alt="emotion" height="150" width="150">
+  <h1 align="center">emotion module</h1>
+</p>
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
