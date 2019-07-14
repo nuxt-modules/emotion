@@ -27,20 +27,38 @@
 
 ## Setup
 
-**IMPORTANT NOTE:** This module requres new hooks that works with nuxt `2.5.0` or `nuxt-edge` only.
+**IMPORTANT NOTE:** This module requires new hooks that works with nuxt `2.5.0` or `nuxt-edge` only.
 
-- Add `@nuxtjs/emotion` dependency using yarn or npm to your project
+1. Add `@nuxtjs/emotion` dependency to your project
 
-- Add `@nuxtjs/emotion` to the `modules` section of `nuxt.config.js`
+```bash
+yarn add @nuxtjs/emotion # or npm install @nuxtjs/emotion
+```
+
+2. Add `@nuxtjs/emotion` to the `modules` section of `nuxt.config.js`
+
+```js
+{
+  modules: [
+    // Simple usage
+    '@nuxtjs/emotion',
+
+    // With options
+    ['@nuxtjs/emotion', { /* module options */ }]
+  ]
+}
+```
+
+### Using top level options
 
 ```js
 {
   modules: [
     '@nuxtjs/emotion'
- ],
- emotion: {
-
- }
+  ],
+  emotion: {
+    /* module options */
+  }
 }
 ```
 
@@ -72,7 +90,7 @@ Can be disabled by setting to `false`.
 
 [MIT License](./LICENSE)
 
-Copyright (c) pooya parsa <pooya@pi0.ir>
+Copyright (c) Nuxt Community
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/dt/@nuxtjs/emotion.svg?style=flat-square
