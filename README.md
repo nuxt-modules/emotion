@@ -3,11 +3,11 @@
   <h1 align="center">Emotion Module</h1>
 </p>
 <p align="center">
-  <a href="https://npmjs.com/package/@nuxtjs/emotion"><img src="https://img.shields.io/npm/dt/@nuxtjs/emotion.svg?style=flat-square" alt="npm version"></a>
-  <a href="https://npmjs.com/package/@nuxtjs/emotion"><img src="https://img.shields.io/npm/v/@nuxtjs/emotion/latest.svg?style=flat-square" alt="npm downloads"></a>
+  <a href="https://npmjs.com/package/@nuxtjs/emotion"><img src="https://img.shields.io/npm/v/@nuxtjs/emotion/latest.svg?style=flat-square" alt="npm version"></a>
+  <a href="https://npmjs.com/package/@nuxtjs/emotion"><img src="https://img.shields.io/npm/dt/@nuxtjs/emotion.svg?style=flat-square" alt="npm downloads"></a>
   <a href="https://circleci.com/gh/nuxt-community/emotion-module"><img src="https://img.shields.io/circleci/project/github/nuxt-community/emotion-module.svg?style=flat-square" alt="circle ci"></a>
   <a href="https://codecov.io/gh/nuxt-community/emotion-module"><img src="https://img.shields.io/codecov/c/github/nuxt-community/emotion-module.svg?style=flat-square" alt="coverage"></a>
-  <a href="https://www.npmjs.com/package/@nuxtjs/emotion"><img src="https://badgen.net/npm/license/@nuxtjs/emotion" alt="License"></a>
+  <a href="https://www.npmjs.com/package/@nuxtjs/emotion"><img src="https://img.shields.io/npm/l/@nuxtjs/emotion.svg?style=flat-square" alt="License"></a>
 </p>
 
 > [Emotion](https://emotion.sh) module for [Nuxt.js](https://nuxtjs.org)
