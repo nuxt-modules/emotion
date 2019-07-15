@@ -1,6 +1,6 @@
 <p align="center" style="color: #343a40">
   <img src="https://cdn.rawgit.com/tkh44/emotion/master/emotion.png" alt="emotion" height="150" width="150">
-  <h1 align="center">Emotion Module</h1>
+  <h1 align="center">@nuxtjs/emotion</h1>
 </p>
 <p align="center">
   <a href="https://npmjs.com/package/@nuxtjs/emotion"><img src="https://img.shields.io/npm/v/@nuxtjs/emotion/latest.svg?style=flat-square" alt="npm version"></a>
