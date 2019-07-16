@@ -1,16 +1,16 @@
 <p align="center" style="color: #343a40">
   <img src="https://cdn.rawgit.com/tkh44/emotion/master/emotion.png" alt="emotion" height="150" width="150">
-  <h1 align="center">Emotion Module</h1>
+  <h1 align="center">@nuxtjs/emotion</h1>
+</p>
+<p align="center">
+  <a href="https://npmjs.com/package/@nuxtjs/emotion"><img src="https://img.shields.io/npm/v/@nuxtjs/emotion/latest.svg?style=flat-square" alt="npm version"></a>
+  <a href="https://npmjs.com/package/@nuxtjs/emotion"><img src="https://img.shields.io/npm/dt/@nuxtjs/emotion.svg?style=flat-square" alt="npm downloads"></a>
+  <a href="https://circleci.com/gh/nuxt-community/emotion-module"><img src="https://img.shields.io/circleci/project/github/nuxt-community/emotion-module.svg?style=flat-square" alt="circle ci"></a>
+  <a href="https://codecov.io/gh/nuxt-community/emotion-module"><img src="https://img.shields.io/codecov/c/github/nuxt-community/emotion-module.svg?style=flat-square" alt="coverage"></a>
+  <a href="https://www.npmjs.com/package/@nuxtjs/emotion"><img src="https://img.shields.io/npm/l/@nuxtjs/emotion.svg?style=flat-square" alt="License"></a>
 </p>
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![Circle CI][circle-ci-src]][circle-ci-href]
-[![Codecov][codecov-src]][codecov-href]
-[![Dependencies][david-dm-src]][david-dm-href]
-[![Standard JS][standard-js-src]][standard-js-href]
-
-[Emotion](https://emotion.sh) support for Nuxt.js
+> [Emotion](https://emotion.sh) module for [Nuxt.js](https://nuxtjs.org)
 
 ## Features
 
@@ -27,20 +27,38 @@
 
 ## Setup
 
-**IMPORTANT NOTE:** This module requres new hooks that works with nuxt `2.5.0` or `nuxt-edge` only.
+**IMPORTANT NOTE:** This module requires new hooks that works with nuxt `2.5.0` or `nuxt-edge` only.
 
-- Add `@nuxtjs/emotion` dependency using yarn or npm to your project
+1. Add `@nuxtjs/emotion` dependency to your project
 
-- Add `@nuxtjs/emotion` to the `modules` section of `nuxt.config.js`
+```bash
+yarn add @nuxtjs/emotion # or npm install @nuxtjs/emotion
+```
+
+2. Add `@nuxtjs/emotion` to the `modules` section of `nuxt.config.js`
+
+```js
+{
+  modules: [
+    // Simple usage
+    '@nuxtjs/emotion',
+
+    // With options
+    ['@nuxtjs/emotion', { /* module options */ }]
+  ]
+}
+```
+
+### Using top level options
 
 ```js
 {
   modules: [
     '@nuxtjs/emotion'
- ],
- emotion: {
-
- }
+  ],
+  emotion: {
+    /* module options */
+  }
 }
 ```
 
@@ -72,18 +90,4 @@ Can be disabled by setting to `false`.
 
 [MIT License](./LICENSE)
 
-Copyright (c) pooya parsa <pooya@pi0.ir>
-
-<!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/dt/@nuxtjs/emotion.svg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/@nuxtjs/emotion
-[npm-downloads-src]: https://img.shields.io/npm/v/@nuxtjs/emotion/latest.svg?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/@nuxtjs/emotion
-[circle-ci-src]: https://img.shields.io/circleci/project/github/nuxt-community/emotion-module.svg?style=flat-square
-[circle-ci-href]: https://circleci.com/gh/nuxt-community/emotion-module
-[codecov-src]: https://img.shields.io/codecov/c/github/nuxt-community/emotion-module.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/nuxt-community/emotion-module
-[david-dm-src]: https://david-dm.org/nuxt-community/emotion-module/status.svg?style=flat-square
-[david-dm-href]: https://david-dm.org/nuxt-community/emotion-module
-[standard-js-src]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square
-[standard-js-href]: https://standardjs.com
+Copyright (c) Nuxt Community
