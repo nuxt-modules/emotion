@@ -9,7 +9,7 @@
     }
   ],
   "main": "lib/module.js",
-  "repository": "https://github.com/nuxt-community/emotion-module",
+  "repository": "nuxt-community/emotion-module",
   "publishConfig": {
     "access": "public"
   },
