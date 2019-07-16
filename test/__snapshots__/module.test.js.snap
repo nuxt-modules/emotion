@@ -19,7 +19,7 @@ exports[`basic / (normal) 1`] = `
     Framework
   </h1></div> <a href=\\"/\\" class=\\"nuxt-link-active\\">
     Go Pink
-  </a></div></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true};</script><script src=\\"/_nuxt/runtime.js\\" defer></script><script src=\\"/_nuxt/pages_normal.js\\" defer></script><script src=\\"/_nuxt/commons.app.js\\" defer></script><script src=\\"/_nuxt/vendors.app.js\\" defer></script><script src=\\"/_nuxt/app.js\\" defer></script>
+  </a></div></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true};</script><script src=\\"/_nuxt/runtime.js\\" defer></script><script src=\\"/_nuxt/pages/normal.js\\" defer></script><script src=\\"/_nuxt/commons.app.js\\" defer></script><script src=\\"/_nuxt/vendors.app.js\\" defer></script><script src=\\"/_nuxt/app.js\\" defer></script>
   </body>
 </html>
 "
@@ -44,7 +44,7 @@ exports[`basic / (pink) 1`] = `
     Framework
   </h1></div> <a href=\\"/normal\\">
     Go Normal
-  </a></div></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true};</script><script src=\\"/_nuxt/runtime.js\\" defer></script><script src=\\"/_nuxt/pages_index.js\\" defer></script><script src=\\"/_nuxt/commons.app.js\\" defer></script><script src=\\"/_nuxt/vendors.app.js\\" defer></script><script src=\\"/_nuxt/app.js\\" defer></script>
+  </a></div></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true};</script><script src=\\"/_nuxt/runtime.js\\" defer></script><script src=\\"/_nuxt/pages/index.js\\" defer></script><script src=\\"/_nuxt/commons.app.js\\" defer></script><script src=\\"/_nuxt/vendors.app.js\\" defer></script><script src=\\"/_nuxt/app.js\\" defer></script>
   </body>
 </html>
 "
