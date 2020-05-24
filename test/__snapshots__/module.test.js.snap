@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`basic / (normal) 1`] = `
+exports[`module / (normal) 1`] = `
 "<!doctype html>
-<html data-n-head-ssr data-n-head=\\"\\">
-  <head data-n-head=\\"\\">
-    <title>undefined</title><style data-vue-ssr-id=\\"6ab05f90:0\\">.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}</style><style>@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');html,body{font-family:'Source Sans Pro',sans-serif;color:#0a1f44;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:100vh;text-align:center;}a{padding:.5em;border:1px solid grey;border-radius:.3em;color:#0a1f44;-webkit-text-decoration:none;text-decoration:none;}.css-9ehno9{color:#42b883;}.css-amiok5{font-size:60px;}</style><script>window.$emotionSSRIds = [\\"1qjmn0x\\",\\"9ehno9\\",\\"amiok5\\"]</script>
+<html data-n-head-ssr>
+  <head >
+    <style data-vue-ssr-id=\\"124e288c:0\\">.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}</style><style>@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');html,body{font-family:'Source Sans Pro',sans-serif;color:#0a1f44;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:100vh;text-align:center;}a{padding:.5em;border:1px solid grey;border-radius:.3em;color:#0a1f44;-webkit-text-decoration:none;text-decoration:none;}.css-9ehno9{color:#42b883;}.css-amiok5{font-size:60px;}</style><script>window.$emotionSSRIds = [\\"1qjmn0x\\",\\"9ehno9\\",\\"amiok5\\"]</script>
   </head>
-  <body data-n-head=\\"\\">
+  <body >
     <div data-server-rendered=\\"true\\" id=\\"__nuxt\\"><!----><div id=\\"__layout\\"><div><div><h1 class=\\"css-amiok5\\">
     Nuxt
     <span class=\\"css-9ehno9\\">
@@ -19,19 +19,19 @@ exports[`basic / (normal) 1`] = `
     Framework
   </h1></div> <a href=\\"/\\" class=\\"nuxt-link-active\\">
     Go Pink
-  </a></div></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true};</script><script src=\\"/_nuxt/runtime.js\\" defer></script><script src=\\"/_nuxt/pages/normal.js\\" defer></script><script src=\\"/_nuxt/commons.app.js\\" defer></script><script src=\\"/_nuxt/vendors.app.js\\" defer></script><script src=\\"/_nuxt/app.js\\" defer></script>
+  </a></div></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],fetch:[],error:null,serverRendered:true,routePath:\\"\\\\u002Fnormal\\",config:{}};</script><script src=\\"/_nuxt/runtime.js\\" defer></script><script src=\\"/_nuxt/pages_normal.js\\" defer></script><script src=\\"/_nuxt/commons.app.js\\" defer></script><script src=\\"/_nuxt/vendors.app.js\\" defer></script><script src=\\"/_nuxt/app.js\\" defer></script>
   </body>
 </html>
 "
 `;
 
-exports[`basic / (pink) 1`] = `
+exports[`module / (pink) 1`] = `
 "<!doctype html>
-<html data-n-head-ssr data-n-head=\\"\\">
-  <head data-n-head=\\"\\">
-    <title>undefined</title><style data-vue-ssr-id=\\"6ab05f90:0\\">.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}</style><style>@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');html,body{font-family:'Source Sans Pro',sans-serif;color:#0a1f44;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:100vh;text-align:center;}a{padding:.5em;border:1px solid grey;border-radius:.3em;color:#0a1f44;-webkit-text-decoration:none;text-decoration:none;}.css-9ehno9{color:#42b883;}.css-amiok5{font-size:60px;}.css-1lrxbo5{color:hotpink;}</style><script>window.$emotionSSRIds = [\\"1qjmn0x\\",\\"9ehno9\\",\\"amiok5\\",\\"1lrxbo5\\"]</script>
+<html data-n-head-ssr>
+  <head >
+    <style data-vue-ssr-id=\\"124e288c:0\\">.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}</style><style>@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');html,body{font-family:'Source Sans Pro',sans-serif;color:#0a1f44;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:100vh;text-align:center;}a{padding:.5em;border:1px solid grey;border-radius:.3em;color:#0a1f44;-webkit-text-decoration:none;text-decoration:none;}.css-9ehno9{color:#42b883;}.css-amiok5{font-size:60px;}.css-1lrxbo5{color:hotpink;}</style><script>window.$emotionSSRIds = [\\"1qjmn0x\\",\\"9ehno9\\",\\"amiok5\\",\\"1lrxbo5\\"]</script>
   </head>
-  <body data-n-head=\\"\\">
+  <body >
     <div data-server-rendered=\\"true\\" id=\\"__nuxt\\"><!----><div id=\\"__layout\\"><div class=\\"css-1lrxbo5\\"><div><h1 class=\\"css-amiok5\\">
     Nuxt
     <span class=\\"css-9ehno9\\">
@@ -44,7 +44,7 @@ exports[`basic / (pink) 1`] = `
     Framework
   </h1></div> <a href=\\"/normal\\">
     Go Normal
-  </a></div></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true};</script><script src=\\"/_nuxt/runtime.js\\" defer></script><script src=\\"/_nuxt/pages/index.js\\" defer></script><script src=\\"/_nuxt/commons.app.js\\" defer></script><script src=\\"/_nuxt/vendors.app.js\\" defer></script><script src=\\"/_nuxt/app.js\\" defer></script>
+  </a></div></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],fetch:[],error:null,serverRendered:true,routePath:\\"\\\\u002F\\",config:{}};</script><script src=\\"/_nuxt/runtime.js\\" defer></script><script src=\\"/_nuxt/pages_index.js\\" defer></script><script src=\\"/_nuxt/commons.app.js\\" defer></script><script src=\\"/_nuxt/vendors.app.js\\" defer></script><script src=\\"/_nuxt/app.js\\" defer></script>
   </body>
 </html>
 "
