@@ -2,6 +2,7 @@
   "name": "@nuxtjs/emotion",
   "version": "0.0.1",
   "description": "The Next Generation of CSS-in-JS for Nuxt.js",
+  "repository": "nuxt-community/emotion-module",
   "license": "MIT",
   "contributors": [
     {
@@ -9,37 +10,33 @@
     }
   ],
   "main": "lib/module.js",
-  "repository": "nuxt-community/emotion-module",
-  "publishConfig": {
-    "access": "public"
-  },
-  "scripts": {
-    "dev": "nuxt example",
-    "lint": "eslint --ext .js,.vue example lib test",
-    "test": "yarn lint && jest",
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
-  },
   "files": [
     "lib"
   ],
+  "scripts": {
+    "dev": "nuxt example",
+    "lint": "eslint --ext .js,.vue .",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint && jest"
+  },
   "dependencies": {
-    "babel-plugin-emotion": "^10.0.14",
-    "consola": "^2.9.0",
-    "emotion": "^10.0.14",
-    "emotion-server": "^10.0.14"
+    "babel-plugin-emotion": "^10.0.33",
+    "consola": "^2.12.1",
+    "emotion": "^10.0.27",
+    "emotion-server": "^10.0.27"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "@nuxtjs/eslint-config": "latest",
-    "codecov": "latest",
+    "@nuxtjs/module-test-utils": "latest",
     "eslint": "latest",
-    "get-port": "latest",
     "husky": "latest",
     "jest": "latest",
     "nuxt-edge": "latest",
-    "request": "latest",
-    "request-promise-native": "latest",
     "standard-version": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

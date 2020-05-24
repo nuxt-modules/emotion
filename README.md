@@ -5,9 +5,9 @@
 <p align="center">
   <a href="https://npmjs.com/package/@nuxtjs/emotion"><img src="https://img.shields.io/npm/v/@nuxtjs/emotion/latest.svg?style=flat-square" alt="npm version"></a>
   <a href="https://npmjs.com/package/@nuxtjs/emotion"><img src="https://img.shields.io/npm/dt/@nuxtjs/emotion.svg?style=flat-square" alt="npm downloads"></a>
-  <a href="https://circleci.com/gh/nuxt-community/emotion-module"><img src="https://img.shields.io/circleci/project/github/nuxt-community/emotion-module.svg?style=flat-square" alt="circle ci"></a>
+  <a href="https://github.com/nuxt-community/emotion-module/actions?query=workflow%3Aci"><img src="https://github.com/nuxt-community/emotion-module/workflows/ci/badge.svg" alt="circle ci"></a>
   <a href="https://codecov.io/gh/nuxt-community/emotion-module"><img src="https://img.shields.io/codecov/c/github/nuxt-community/emotion-module.svg?style=flat-square" alt="coverage"></a>
-  <a href="https://www.npmjs.com/package/@nuxtjs/emotion"><img src="https://img.shields.io/npm/l/@nuxtjs/emotion.svg?style=flat-square" alt="License"></a>
+  <a href="https://npmjs.com/package/@nuxtjs/emotion"><img src="https://img.shields.io/npm/l/@nuxtjs/emotion.svg?style=flat-square" alt="License"></a>
 </p>
 
 > [Emotion](https://emotion.sh) module for [Nuxt.js](https://nuxtjs.org)
@@ -38,7 +38,7 @@ yarn add @nuxtjs/emotion # or npm install @nuxtjs/emotion
 2. Add `@nuxtjs/emotion` to the `modules` section of `nuxt.config.js`
 
 ```js
-{
+export default {
   modules: [
     // Simple usage
     '@nuxtjs/emotion',
@@ -52,7 +52,7 @@ yarn add @nuxtjs/emotion # or npm install @nuxtjs/emotion
 ### Using top level options
 
 ```js
-{
+export default {
   modules: [
     '@nuxtjs/emotion'
   ],
