@@ -20,18 +20,17 @@
   "dependencies": {
     "@emotion/babel-plugin": "^11.1.2",
     "@emotion/css": "^11.0.0",
-    "@emotion/server": "^11.0.0",
-    "consola": "^2.15.0"
+    "@emotion/server": "^11.0.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.12.11",
-    "@babel/preset-typescript": "^7.12.7",
-    "@nuxt/test-utils": "^0.1.2",
+    "@babel/preset-env": "latest",
+    "@babel/preset-typescript": "latest",
+    "@nuxt/test-utils": "latest",
     "@nuxtjs/eslint-config-typescript": "latest",
     "eslint": "latest",
     "jest": "latest",
     "nuxt": "latest",
-    "siroc": "^0.6.0",
+    "siroc": "latest",
     "standard-version": "latest"
   },
   "publishConfig": {
