@@ -4,14 +4,11 @@
   "description": "The Next Generation of CSS-in-JS for Nuxt.js",
   "repository": "nuxt-community/emotion-module",
   "license": "MIT",
-  "contributors": [
-    {
-      "name": "pooya parsa <pooya@pi0.ir>"
-    }
-  ],
-  "main": "lib/module.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "lib"
+    "dist",
+    "templates"
   ],
   "scripts": {
     "dev": "nuxt example",
@@ -26,14 +23,14 @@
     "consola": "^2.15.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "latest",
-    "@commitlint/config-conventional": "latest",
-    "@nuxtjs/eslint-config": "latest",
-    "@nuxtjs/module-test-utils": "latest",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "@nuxt/test-utils": "^0.1.2",
+    "@nuxtjs/eslint-config-typescript": "latest",
     "eslint": "latest",
-    "husky": "latest",
     "jest": "latest",
-    "nuxt-edge": "latest",
+    "nuxt": "latest",
+    "siroc": "^0.6.0",
     "standard-version": "latest"
   },
   "publishConfig": {

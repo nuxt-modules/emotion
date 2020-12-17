@@ -1,8 +1,8 @@
-const { resolve } = require('path')
-const { renderStylesToString, extractCritical } = require('@emotion/server')
-const logger = require('./logger')
+import { resolve } from 'path'
+import { renderStylesToString, extractCritical } from '@emotion/server'
 
-module.exports = function (moduleOptions) {
+
+export default function (moduleOptions) {
   const defaults = {
     ssr: 'critical',
     babel: {
@@ -33,7 +33,7 @@ module.exports = function (moduleOptions) {
   const renderFn = functionMap[options.ssr]
 
   if (typeof renderFn === 'undefined') {
-    logger.error(`Invalid value "${options.ssr}" for \`emotion.ssr\``)
+    console.error(`[emotion] Invalid value "${options.ssr}" for \`emotion.ssr\``)
     return
   }
 
@@ -61,7 +61,7 @@ function critical (options) {
     }
 
     this.addPlugin({
-      src: resolve(__dirname, 'plugin.js'),
+      src: resolve(__dirname, '../templates/emotion.js'),
       fileName: 'emotion.js',
       ssr: false,
       options

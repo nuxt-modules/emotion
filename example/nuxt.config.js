@@ -1,4 +1,5 @@
-module.exports = {
+export default {
+  createRequire: process.env.NODE_ENV === 'test' ? 'native' : 'jiti',
   rootDir: __dirname,
   build: {
     filenames: {
@@ -10,6 +11,6 @@ module.exports = {
     resourceHints: false
   },
   modules: [
-    { handler: require('../') }
+    '../src/index.ts'
   ]
 }

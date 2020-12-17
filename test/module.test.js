@@ -1,23 +1,19 @@
-const { setup, loadConfig, get } = require('@nuxtjs/module-test-utils')
+import { setupTest, get } from '@nuxt/test-utils'
 
 describe('module', () => {
-  let nuxt
-
-  beforeAll(async () => {
-    ({ nuxt } = (await setup(loadConfig(__dirname, '../../example', { dev: false }))))
-  }, 60000)
-
-  afterAll(async () => {
-    await nuxt.close()
+  setupTest({
+    testDir: __dirname,
+    fixture: '../example',
+    server: true
   })
 
   test('/ (pink)', async () => {
-    const html = await get('/')
+    const html = await get('/').then(r => r.body)
     expect(html).toMatchSnapshot()
   })
 
   test('/ (normal)', async () => {
-    const html = await get('/normal')
+    const html = await get('/normal').then(r => r.body)
     expect(html).toMatchSnapshot()
   })
 })
