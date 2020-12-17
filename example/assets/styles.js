@@ -1,25 +1,25 @@
-import { css, injectGlobal } from 'emotion'
+import { css, injectGlobal } from '@emotion/css'
 
 injectGlobal`
-html, body {
   @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #0a1f44;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  text-align: center;
-}
+  html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0a1f44;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
 
-a {
-  padding: .5em;
-  border: 1px solid grey;
-  border-radius: .3em;
-  color: #0a1f44;
-  text-decoration: none;
-}
+  a {
+    padding: .5em;
+    border: 1px solid grey;
+    border-radius: .3em;
+    color: #0a1f44;
+    text-decoration: none;
+  }
 `
 
 export const primaryStyle = css`

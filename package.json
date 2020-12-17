@@ -20,10 +20,10 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
-    "babel-plugin-emotion": "^10.0.33",
-    "consola": "^2.15.0",
-    "emotion": "^10.0.27",
-    "emotion-server": "^10.0.27"
+    "@emotion/babel-plugin": "^11.1.2",
+    "@emotion/css": "^11.0.0",
+    "@emotion/server": "^11.0.0",
+    "consola": "^2.15.0"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
