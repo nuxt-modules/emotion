@@ -1,8 +1,7 @@
 import { resolve } from 'path'
 import { renderStylesToString, extractCritical } from '@emotion/server'
 
-
-export default function (moduleOptions) {
+function emotionModule (moduleOptions) {
   const defaults = {
     ssr: 'critical',
     babel: {
@@ -33,6 +32,7 @@ export default function (moduleOptions) {
   const renderFn = functionMap[options.ssr]
 
   if (typeof renderFn === 'undefined') {
+    // eslint-disable-next-line no-console
     console.error(`[emotion] Invalid value "${options.ssr}" for \`emotion.ssr\``)
     return
   }
@@ -75,10 +75,12 @@ function critical (options) {
   })
 }
 
-function ssr (options) {
+function ssr () {
   this.nuxt.hook('vue-renderer:ssr:templateParams', (params) => {
     params.APP = renderStylesToString(params.APP)
   })
 }
 
-module.exports.meta = require('../package.json')
+emotionModule.meta = require('../package.json')
+
+export default emotionModule

@@ -13,7 +13,7 @@
   "scripts": {
     "build": "siroc build",
     "dev": "nuxt example",
-    "lint": "eslint --ext .js,.vue .",
+    "lint": "eslint --ext .js,.vue,.ts .",
     "release": "yarn build && yarn test && standard-version && git push --follow-tags && npm publish",
     "test": "yarn lint && jest"
   },
