@@ -45,7 +45,7 @@ jobs:
         run: yarn lint
 
       - name: Test
-        run: yarn jest
+        run: yarn test
 
       - name: Coverage
         uses: codecov/codecov-action@master
