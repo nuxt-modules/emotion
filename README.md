@@ -40,45 +40,13 @@ yarn add @nuxtjs/emotion # or npm install @nuxtjs/emotion
 ```js
 export default {
   modules: [
-    // Simple usage
     '@nuxtjs/emotion',
-
-    // With options
-    ['@nuxtjs/emotion', { /* module options */ }]
   ]
 }
 ```
 
-### Using top level options
-
-```js
-export default {
-  modules: [
-    '@nuxtjs/emotion'
-  ],
-  emotion: {
-    /* module options */
-  }
-}
-```
-
-## Options
-
-### `ssr`
-
-- Default: `'critical'`
-
-Can be `'critical'` or `'render'` or `false`.
-
-In the `critical` mode, module automatically injects `window.$emotionSSRIds` for hydration.
-
-### `babel`
-
-- Default: `{ inline: true }`
-
-Options for [babel-plugin-emotion](https://emotion.sh/docs/babel-plugin-emotion) integration.
-
-Can be disabled by setting to `false`.
+## Nuxt 2
+Nuxt 2 is supported with `@nuxtjs/emotion@0.1.0`, Documentation is on https://github.com/nuxt-community/emotion-module/tree/v0 and the code on the [`v0`](https://github.com/nuxt-community/emotion-module/tree/v0) branch.
 
 ## Development
 
