@@ -1,6 +1,8 @@
 <template>
-  <div :class="styles.root">Nuxt module playground!</div>
-  <button :class="styles.button">Hello World</button>
+  <div>
+    <div :class="styles.root">Nuxt module playground!</div>
+    <button :class="styles.button">Hello World</button>
+  </div>
 </template>
 
 <script setup>
@@ -34,10 +36,6 @@ const styles = reactive({
     cursor: "pointer",
     transitionProperty:
       "color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter",
-    transitionProperty:
-      "color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter",
-    transitionProperty:
-      "color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter",
     transitionTimingFunction: "cubic-bezier(.4,0,.2,1)",
     transitionDuration: ".15s",
     "&:hover": {
