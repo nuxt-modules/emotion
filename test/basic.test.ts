@@ -10,6 +10,9 @@ describe('nust emotion ssr', async () => {
     expect(html).toContain('<style data-emotion')
     expect(html).toContain('<script data-emotion')
     expect(html).toContain('window.$emotionIds')
-    expect(html).toMatchSnapshot()
+
+    // Removed because the nuxt build entries product difference SSR output
+    // for each test run so it doesn't make sense to run snapshot tests.
+    // expect(html).toMatchSnapshot()
   })
 })
