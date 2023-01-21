@@ -48,7 +48,7 @@ jobs:
 
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
-        run: pnpm enable && pnpm install && pnpm dev:prepare
+        run: pnpm install && pnpm dev:prepare
 
       - name: Lint
         run: pnpm lint
