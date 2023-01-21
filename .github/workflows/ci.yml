@@ -39,13 +39,13 @@ jobs:
 
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn && yarn dev:prepare
+        run: pnpm enable && pnpm install && pnpm dev:prepare
 
       - name: Lint
-        run: yarn lint
+        run: pnpm lint
 
       - name: Test
-        run: yarn test
+        run: pnpm test
 
       - name: Coverage
         uses: codecov/codecov-action@v3
