@@ -18,7 +18,6 @@
   ],
   "scripts": {
     "prepack": "nuxt-module-build",
-    "postinstall": "nuxt-module-build --stub && nuxi prepare playground",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
