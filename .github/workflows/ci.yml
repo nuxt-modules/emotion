@@ -39,7 +39,7 @@ jobs:
 
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn
+        run: yarn && yarn dev:prepare
 
       - name: Lint
         run: yarn lint
