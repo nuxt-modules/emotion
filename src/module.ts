@@ -9,7 +9,7 @@ import {
 declare global {
   interface Window {
     /** Serialized SSR IDs for emotion */
-    $emotionSSRIds: string[];
+    $emotionSSRIds: string[]
   }
 }
 

@@ -1,10 +1,7 @@
 {
-  "extends": [
-    "@nuxtjs/eslint-config-typescript"
-  ],
+  "plugins": ["prettier"],
+  "extends": "@nuxtjs/eslint-config-typescript",
   "rules": {
-    "@typescript-eslint/no-unused-vars": [
-      "off"
-    ]
-  }
+    "@typescript-eslint/no-unused-vars": ["off"],
+  },
 }
