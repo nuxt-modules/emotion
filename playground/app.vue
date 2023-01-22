@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { css } from '@emotion/css'
 
 const styles = reactive({

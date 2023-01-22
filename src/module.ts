@@ -37,7 +37,7 @@ export default defineNuxtModule({
      * Register emotion plugin
      */
     const { resolve } = createResolver(import.meta.url)
-    const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
+    const runtimeDir = resolve('./runtime')
     nuxt.options.build.transpile.push(runtimeDir)
     addServerPlugin(resolve(runtimeDir, 'emotion.server'))
     addPlugin(resolve(runtimeDir, 'emotion.client'))

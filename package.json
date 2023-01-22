@@ -1,8 +1,8 @@
 {
   "name": "@nuxtjs/emotion",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "The Next Generation of CSS-in-JS for Nuxt.js",
-  "repository": "nuxt-community/emotion-module",
+  "repository": "nuxt-modules/emotion",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -34,9 +34,13 @@
     "@nuxt/schema": "^3.0.0",
     "@nuxt/test-utils": "^3.0.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "eslint": "^8.31.0",
-    "nitropack": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint": "^8.32.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
     "nuxt": "^3.0.0",
+    "prettier": "^2.8.3",
+    "typescript": "*",
     "vitest": "^0.27.2"
   },
   "publishConfig": {

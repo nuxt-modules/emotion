@@ -27,8 +27,6 @@
 
 ## Setup
 
-**IMPORTANT NOTE:** This module requires new hooks that works with nuxt `2.5.0` or `nuxt-edge` only.
-
 1. Add `@nuxtjs/emotion` dependency to your project
 
 ```bash
