@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "moduleResolution": "Node",
-    "module": "node16"
+    "module": "es2022",
+    "moduleResolution": "Node"
   }
 }
