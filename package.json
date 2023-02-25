@@ -25,7 +25,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@emotion/css": "^11.10.0",
+    "@emotion/css": "^11.10.6",
     "@emotion/server": "^11.10.0",
     "@nuxt/kit": "^3.2.2"
   },
@@ -42,7 +42,7 @@
     "nuxt": "^3.2.2",
     "prettier": "^2.8.4",
     "typescript": "*",
-    "vitest": "^0.28.5"
+    "vitest": "^0.29.0"
   },
   "publishConfig": {
     "access": "public"
