@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/emotion",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The Next Generation of CSS-in-JS for Nuxt.js",
   "repository": "nuxt-modules/emotion",
   "license": "MIT",
@@ -25,7 +25,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@emotion/css": "^11.10.6",
+    "@emotion/css": "^11.10.0",
     "@emotion/server": "^11.10.0",
     "@nuxt/kit": "^3.2.2"
   },

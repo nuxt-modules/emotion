@@ -1,10 +1,17 @@
 # Changelog
 
+## 1.0.2
+
+### Patch Changes
+
+- Fix: flatten emotion/css version
+
 ## 1.0.1
 
 ### Patch Changes
 
 - Upgrade emotion packages and add changesets publish workflow
+
 ## 1.0.0
 
 ### Major Changes
