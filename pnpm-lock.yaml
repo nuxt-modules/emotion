@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@emotion/css': ^11.10.5
+  '@emotion/css': ^11.10.6
   '@emotion/server': ^11.10.0
   '@nuxt/kit': ^3.0.0
   '@nuxt/module-builder': ^0.2.1
@@ -18,8 +18,8 @@ specifiers:
   vitest: ^0.27.2
 
 dependencies:
-  '@emotion/css': 11.10.5
-  '@emotion/server': 11.10.0_@emotion+css@11.10.5
+  '@emotion/css': 11.10.6
+  '@emotion/server': 11.10.0_@emotion+css@11.10.6
   '@nuxt/kit': 3.0.0
 
 devDependencies:
@@ -179,6 +179,7 @@ packages:
   /@babel/helper-plugin-utils/7.20.2:
     resolution: {integrity: sha512-8RvlJG2mj4huQ4pZ+rU9lqKi9ZKiRmuvGuM2HlWmkmgOhbs6zEAw6IEiJ5cQqGbDzGZOhwuOQNtZMi/ENLjZoQ==}
     engines: {node: '>=6.9.0'}
+    dev: true
 
   /@babel/helper-replace-supers/7.20.7:
     resolution: {integrity: sha512-vujDMtB6LVfNW13jhlCrp48QNslK6JXi7lQG736HVbHz/mbf4Dc7tIRh1Xf5C0rF7BP8iiSxGMCmY6Ci1ven3A==}
@@ -250,15 +251,6 @@ packages:
     dependencies:
       '@babel/types': 7.20.7
 
-  /@babel/plugin-syntax-jsx/7.18.6:
-    resolution: {integrity: sha512-6mmljtAedFGTWu2p/8WIORGwy+61PLgOMPOdazc7YoJ9ZCWUyFy3A6CpPkRKLKD1ToAesxX8KGEViAiLo9N+7Q==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    dependencies:
-      '@babel/helper-plugin-utils': 7.20.2
-    dev: false
-
   /@babel/plugin-syntax-jsx/7.18.6_@babel+core@7.20.12:
     resolution: {integrity: sha512-6mmljtAedFGTWu2p/8WIORGwy+61PLgOMPOdazc7YoJ9ZCWUyFy3A6CpPkRKLKD1ToAesxX8KGEViAiLo9N+7Q==}
     engines: {node: '>=6.9.0'}
@@ -293,8 +285,8 @@ packages:
       - supports-color
     dev: true
 
-  /@babel/runtime/7.20.13:
-    resolution: {integrity: sha512-gt3PKXs0DBoL9xCvOIIZ2NEqAGZqHjAnmVbfQtB620V0uReIQutpel14KcneZuer7UioY8ALKZ7iocavvzTNFA==}
+  /@babel/runtime/7.21.0:
+    resolution: {integrity: sha512-xwII0//EObnq89Ji5AKYQaRYiW/nZ3llSv29d49IuxPhKbtJoLP+9QUUZ4nVragQVtaVGeZrpB+ZtG/Pdy/POw==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.11
@@ -343,14 +335,11 @@ packages:
       mime: 3.0.0
     dev: true
 
-  /@emotion/babel-plugin/11.10.5:
-    resolution: {integrity: sha512-xE7/hyLHJac7D2Ve9dKroBBZqBT7WuPQmWcq7HSGb84sUuP4mlOWoB8dvVfD9yk5DHkU1m6RW7xSoDtnQHNQeA==}
-    peerDependencies:
-      '@babel/core': ^7.0.0
+  /@emotion/babel-plugin/11.10.6:
+    resolution: {integrity: sha512-p2dAqtVrkhSa7xz1u/m9eHYdLi+en8NowrmXeF/dKtJpU8lCWli8RUAati7NcSl0afsBott48pdnANuD0wh9QQ==}
     dependencies:
       '@babel/helper-module-imports': 7.18.6
-      '@babel/plugin-syntax-jsx': 7.18.6
-      '@babel/runtime': 7.20.13
+      '@babel/runtime': 7.21.0
       '@emotion/hash': 0.9.0
       '@emotion/memoize': 0.8.0
       '@emotion/serialize': 1.1.1
@@ -372,15 +361,10 @@ packages:
       stylis: 4.1.3
     dev: false
 
-  /@emotion/css/11.10.5:
-    resolution: {integrity: sha512-maJy0wG82hWsiwfJpc3WrYsyVwUbdu+sdIseKUB+/OLjB8zgc3tqkT6eO0Yt0AhIkJwGGnmMY/xmQwEAgQ4JHA==}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
+  /@emotion/css/11.10.6:
+    resolution: {integrity: sha512-88Sr+3heKAKpj9PCqq5A1hAmAkoSIvwEq1O2TwDij7fUtsJpdkV4jMTISSTouFeRvsGvXIpuSuDQ4C1YdfNGXw==}
     dependencies:
-      '@emotion/babel-plugin': 11.10.5
+      '@emotion/babel-plugin': 11.10.6
       '@emotion/cache': 11.10.5
       '@emotion/serialize': 1.1.1
       '@emotion/sheet': 1.2.1
@@ -405,7 +389,7 @@ packages:
       csstype: 3.1.1
     dev: false
 
-  /@emotion/server/11.10.0_@emotion+css@11.10.5:
+  /@emotion/server/11.10.0_@emotion+css@11.10.6:
     resolution: {integrity: sha512-MTvJ21JPo9aS02GdjFW4nhdwOi2tNNpMmAM/YED0pkxzjDNi5WbiTwXqaCnvLc2Lr8NFtjhT0az1vTJyLIHYcw==}
     peerDependencies:
       '@emotion/css': ^11.0.0-rc.0
@@ -413,7 +397,7 @@ packages:
       '@emotion/css':
         optional: true
     dependencies:
-      '@emotion/css': 11.10.5
+      '@emotion/css': 11.10.6
       '@emotion/utils': 1.2.0
       html-tokenize: 2.0.1
       multipipe: 1.0.2
@@ -1891,7 +1875,7 @@ packages:
     resolution: {integrity: sha512-Cg7TFGpIr01vOQNODXOOaGz2NpCU5gl8x1qJFbb6hbZxR7XrcE2vtbAsTAbJ7/xwJtUuJEw8K8Zr/AE0LHlesg==}
     engines: {node: '>=10', npm: '>=6'}
     dependencies:
-      '@babel/runtime': 7.20.13
+      '@babel/runtime': 7.21.0
       cosmiconfig: 7.1.0
       resolve: 1.22.1
     dev: false

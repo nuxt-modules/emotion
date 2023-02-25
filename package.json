@@ -25,7 +25,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@emotion/css": "^11.10.5",
+    "@emotion/css": "^11.10.6",
     "@emotion/server": "^11.10.0",
     "@nuxt/kit": "^3.0.0"
   },
