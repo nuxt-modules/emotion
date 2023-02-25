@@ -1,6 +1,3 @@
 {
-  "compilerOptions": {
-    "module": "es2022",
-    "moduleResolution": "Node"
-  }
+  "extends": "./playground/.nuxt/tsconfig.json"
 }
