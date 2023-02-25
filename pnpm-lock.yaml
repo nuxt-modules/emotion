@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@changesets/cli': ^2.26.0
-  '@emotion/css': ^11.10.0
+  '@emotion/css': ^11.10.6
   '@emotion/server': ^11.10.0
   '@nuxt/kit': ^3.2.2
   '@nuxt/module-builder': ^0.2.1
@@ -16,7 +16,7 @@ specifiers:
   nuxt: ^3.2.2
   prettier: ^2.8.4
   typescript: '*'
-  vitest: ^0.28.5
+  vitest: ^0.29.0
 
 dependencies:
   '@emotion/css': 11.10.6
@@ -36,7 +36,7 @@ devDependencies:
   nuxt: 3.2.2_ehfyfk7qbmgzg5nk6xmobqdh3a
   prettier: 2.8.4
   typescript: 4.9.4
-  vitest: 0.28.5
+  vitest: 0.29.0
 
 packages:
 
@@ -2023,30 +2023,30 @@ packages:
       vue: 3.2.47
     dev: true
 
-  /@vitest/expect/0.28.5:
-    resolution: {integrity: sha512-gqTZwoUTwepwGIatnw4UKpQfnoyV0Z9Czn9+Lo2/jLIt4/AXLTn+oVZxlQ7Ng8bzcNkR+3DqLJ08kNr8jRmdNQ==}
+  /@vitest/expect/0.29.0:
+    resolution: {integrity: sha512-WBuEI1yW16BZV+Py845Em61RsFIt7dyCtgdVWiDu2qizqH6D/Y9x4b6clW4hq7VvMiGRlwBpnt7smzR8jOlacw==}
     dependencies:
-      '@vitest/spy': 0.28.5
-      '@vitest/utils': 0.28.5
+      '@vitest/spy': 0.29.0
+      '@vitest/utils': 0.29.0
       chai: 4.3.7
     dev: true
 
-  /@vitest/runner/0.28.5:
-    resolution: {integrity: sha512-NKkHtLB+FGjpp5KmneQjTcPLWPTDfB7ie+MmF1PnUBf/tGe2OjGxWyB62ySYZ25EYp9krR5Bw0YPLS/VWh1QiA==}
+  /@vitest/runner/0.29.0:
+    resolution: {integrity: sha512-YL5p8+ORYNK/5JWYKG//FGazEYDpvRK8RZRJgaAuNxI1iZx07jnkl89nAV58hTgSFcPymnNAv1bOHmMa++5bRg==}
     dependencies:
-      '@vitest/utils': 0.28.5
+      '@vitest/utils': 0.29.0
       p-limit: 4.0.0
       pathe: 1.1.0
     dev: true
 
-  /@vitest/spy/0.28.5:
-    resolution: {integrity: sha512-7if6rsHQr9zbmvxN7h+gGh2L9eIIErgf8nSKYDlg07HHimCxp4H6I/X/DPXktVPPLQfiZ1Cw2cbDIx9fSqDjGw==}
+  /@vitest/spy/0.29.0:
+    resolution: {integrity: sha512-h8xSW5ZBI9dwM3p854LCDJCeKGkiyZzI9CtctOBDgj5AQzDFu7xI0kAGcrwm8z/sBbcibDJ6gzz2/gyr6T0kPQ==}
     dependencies:
       tinyspy: 1.0.2
     dev: true
 
-  /@vitest/utils/0.28.5:
-    resolution: {integrity: sha512-UyZdYwdULlOa4LTUSwZ+Paz7nBHGTT72jKwdFSV4IjHF1xsokp+CabMdhjvVhYwkLfO88ylJT46YMilnkSARZA==}
+  /@vitest/utils/0.29.0:
+    resolution: {integrity: sha512-jbP2UPZt5tpNOu//1aMpExqXvZ9olR3BsulzQiHXxlJ18WIyNiBuf3EDhcTMqFkDsuizF4UjCr1+z+qVye3NSw==}
     dependencies:
       cli-truncate: 3.1.0
       diff: 5.1.0
@@ -2179,12 +2179,12 @@ packages:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
     dev: true
 
-  /acorn-jsx/5.3.2_acorn@8.8.1:
+  /acorn-jsx/5.3.2_acorn@8.8.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      acorn: 8.8.1
+      acorn: 8.8.2
     dev: true
 
   /acorn-walk/8.2.0:
@@ -3732,8 +3732,8 @@ packages:
     resolution: {integrity: sha512-XwctdmTO6SIvCzd9810yyNzIrOrqNYV9Koizx4C/mRhf9uq0o4yHoCEU/670pOxOL/MSraektvSAji79kX90Vg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
-      acorn: 8.8.1
-      acorn-jsx: 5.3.2_acorn@8.8.1
+      acorn: 8.8.2
+      acorn-jsx: 5.3.2_acorn@8.8.2
       eslint-visitor-keys: 3.3.0
     dev: true
 
@@ -6817,12 +6817,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /strip-literal/1.0.0:
-    resolution: {integrity: sha512-5o4LsH1lzBzO9UFH63AJ2ad2/S2AVx6NtjOcaz+VTT2h1RiRvbipW72z8M/lxEhcPHDBQwpDrnTF7sXy/7OwCQ==}
-    dependencies:
-      acorn: 8.8.2
-    dev: true
-
   /strip-literal/1.0.1:
     resolution: {integrity: sha512-QZTsipNpa2Ppr6v1AmJHESqJ3Uz247MUS0OjrnnZjFAvEoWqxuyFuXn2xLgMtRnijJShAa1HL0gtJyUs7u7n3Q==}
     dependencies:
@@ -7323,8 +7317,8 @@ packages:
       - terser
     dev: true
 
-  /vite-node/0.28.5_@types+node@18.11.18:
-    resolution: {integrity: sha512-LmXb9saMGlrMZbXTvOveJKwMTBTNUH66c8rJnQ0ZPNX+myPEol64+szRzXtV5ORb0Hb/91yq+/D3oERoyAt6LA==}
+  /vite-node/0.29.0_@types+node@18.11.18:
+    resolution: {integrity: sha512-gkygsqDTgS01sC+MKxHwvpVpySBKxMofW38qrNeVcu2gfooeRyKIc5yyxFNorr2KObqYi9mi40rjkaJnOjzpJw==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     dependencies:
@@ -7333,8 +7327,6 @@ packages:
       mlly: 1.1.1
       pathe: 1.1.0
       picocolors: 1.0.0
-      source-map: 0.6.1
-      source-map-support: 0.5.21
       vite: 4.1.4_@types+node@18.11.18
     transitivePeerDependencies:
       - '@types/node'
@@ -7396,40 +7388,6 @@ packages:
       vscode-languageserver: 7.0.0
       vscode-languageserver-textdocument: 1.0.8
       vscode-uri: 3.0.7
-    dev: true
-
-  /vite/4.0.4_@types+node@18.11.18:
-    resolution: {integrity: sha512-xevPU7M8FU0i/80DMR+YhgrzR5KS2ORy1B4xcX/cXLsvnUWvfHuqMmVU6N0YiJ4JWGRJJsLCgjEzKjG9/GKoSw==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    hasBin: true
-    peerDependencies:
-      '@types/node': '>= 14'
-      less: '*'
-      sass: '*'
-      stylus: '*'
-      sugarss: '*'
-      terser: ^5.4.0
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      less:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
-        optional: true
-    dependencies:
-      '@types/node': 18.11.18
-      esbuild: 0.16.17
-      postcss: 8.4.21
-      resolve: 1.22.1
-      rollup: 3.17.2
-    optionalDependencies:
-      fsevents: 2.3.2
     dev: true
 
   /vite/4.1.4:
@@ -7499,8 +7457,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.28.5:
-    resolution: {integrity: sha512-pyCQ+wcAOX7mKMcBNkzDwEHRGqQvHUl0XnoHR+3Pb1hytAHISgSxv9h0gUiSiYtISXUU3rMrKiKzFYDrI6ZIHA==}
+  /vitest/0.29.0:
+    resolution: {integrity: sha512-4pELGmDKaQSFZgR9UuzEbv3vcvPDSXyVDvaJ5Be0QjV/RDoJmwiRk9DyN84KfEKxrBefini/k35Z/WKuTE30RA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -7524,11 +7482,11 @@ packages:
       '@types/chai': 4.3.4
       '@types/chai-subset': 1.3.3
       '@types/node': 18.11.18
-      '@vitest/expect': 0.28.5
-      '@vitest/runner': 0.28.5
-      '@vitest/spy': 0.28.5
-      '@vitest/utils': 0.28.5
-      acorn: 8.8.1
+      '@vitest/expect': 0.29.0
+      '@vitest/runner': 0.29.0
+      '@vitest/spy': 0.29.0
+      '@vitest/utils': 0.29.0
+      acorn: 8.8.2
       acorn-walk: 8.2.0
       cac: 6.7.14
       chai: 4.3.7
@@ -7538,12 +7496,12 @@ packages:
       picocolors: 1.0.0
       source-map: 0.6.1
       std-env: 3.3.2
-      strip-literal: 1.0.0
+      strip-literal: 1.0.1
       tinybench: 2.3.1
       tinypool: 0.3.1
       tinyspy: 1.0.2
-      vite: 4.0.4_@types+node@18.11.18
-      vite-node: 0.28.5_@types+node@18.11.18
+      vite: 4.1.4_@types+node@18.11.18
+      vite-node: 0.29.0_@types+node@18.11.18
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
