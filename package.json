@@ -27,22 +27,22 @@
   "dependencies": {
     "@emotion/css": "^11.10.6",
     "@emotion/server": "^11.10.0",
-    "@nuxt/kit": "^3.2.2"
+    "@nuxt/kit": "^3.2.3"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
     "@nuxt/module-builder": "^0.2.1",
-    "@nuxt/schema": "^3.2.2",
-    "@nuxt/test-utils": "^3.2.2",
+    "@nuxt/schema": "^3.2.3",
+    "@nuxt/test-utils": "^3.2.3",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.53.0",
-    "eslint": "^8.34.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "eslint": "^8.35.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
-    "nuxt": "^3.2.2",
+    "nuxt": "^3.2.3",
     "prettier": "^2.8.4",
     "typescript": "*",
-    "vitest": "^0.29.0"
+    "vitest": "^0.29.2"
   },
   "publishConfig": {
     "access": "public"
