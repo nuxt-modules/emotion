@@ -30,7 +30,7 @@
 1. Add `@nuxtjs/emotion` dependency to your project
 
 ```bash
-yarn add @nuxtjs/emotion # or npm install @nuxtjs/emotion
+npx nuxi@latest module add emotion
 ```
 
 2. Add `@nuxtjs/emotion` to the `modules` section of `nuxt.config.js`
