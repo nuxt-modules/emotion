@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@emotion/css':
     specifier: ^11.10.6
@@ -35,7 +39,7 @@ devDependencies:
     version: 8.39.0
   eslint-plugin-prettier:
     specifier: ^4.2.1
-    version: 4.2.1(eslint@8.39.0)(prettier@2.8.8)
+    version: 4.2.1(eslint@8.39.0)(prettier@3.3.3)
   eslint-plugin-promise:
     specifier: ^6.1.1
     version: 6.1.1(eslint@8.39.0)
@@ -43,8 +47,8 @@ devDependencies:
     specifier: ^3.4.2
     version: 3.4.2(@types/node@18.11.18)(eslint@8.39.0)(rollup@3.20.7)(typescript@4.9.4)
   prettier:
-    specifier: ^2.8.8
-    version: 2.8.8
+    specifier: ^3.3.3
+    version: 3.3.3
   typescript:
     specifier: '*'
     version: 4.9.4
@@ -60,15 +64,6 @@ packages:
     dependencies:
       '@jridgewell/gen-mapping': 0.1.1
       '@jridgewell/trace-mapping': 0.3.17
-
-  /@babel/code-frame@7.18.6:
-    resolution: {integrity: sha512-TDCmlK5eOvH+eH7cdAFlNXeVJqWIQ7gW9tY1GJIpUtFb6CmjVyq2VM3u71bOyR8CRihcCgMUYoDNyLXao3+70Q==}
-    engines: {node: '>=6.9.0'}
-    requiresBuild: true
-    dependencies:
-      '@babel/highlight': 7.18.6
-    dev: true
-    optional: true
 
   /@babel/code-frame@7.21.4:
     resolution: {integrity: sha512-LYvhNKfwWSPpocw8GI7gpK2nq3HSDuEPC/uSYaALSJu9xjsalaaYFOq0Pwt5KmVqwEbZlDu81aLXwBOmD/Fv9g==}
@@ -3451,7 +3446,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier@4.2.1(eslint@8.39.0)(prettier@2.8.8):
+  /eslint-plugin-prettier@4.2.1(eslint@8.39.0)(prettier@3.3.3):
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -3463,7 +3458,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.39.0
-      prettier: 2.8.8
+      prettier: 3.3.3
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -6072,6 +6067,12 @@ packages:
     hasBin: true
     dev: true
 
+  /prettier@3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
   /pretty-bytes@6.1.0:
     resolution: {integrity: sha512-Rk753HI8f4uivXi4ZCIYdhmG1V+WKzvRMg/X+M42a6t7D07RcmopXJMDNk6N++7Bl75URRGsb40ruvg7Hcp2wQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
@@ -6325,7 +6326,7 @@ packages:
       rollup: 3.20.7
       typescript: 5.0.4
     optionalDependencies:
-      '@babel/code-frame': 7.18.6
+      '@babel/code-frame': 7.21.4
     dev: true
 
   /rollup-plugin-visualizer@5.9.0(rollup@3.20.7):
