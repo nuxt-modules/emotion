@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@emotion/css':
     specifier: ^11.10.6
@@ -37,8 +41,8 @@ devDependencies:
     specifier: ^4.2.1
     version: 4.2.1(eslint@8.39.0)(prettier@2.8.8)
   eslint-plugin-promise:
-    specifier: ^6.1.1
-    version: 6.1.1(eslint@8.39.0)
+    specifier: ^7.1.0
+    version: 7.1.0(eslint@8.39.0)
   nuxt:
     specifier: ^3.4.2
     version: 3.4.2(@types/node@18.11.18)(eslint@8.39.0)(rollup@3.20.7)(typescript@4.9.4)
@@ -60,15 +64,6 @@ packages:
     dependencies:
       '@jridgewell/gen-mapping': 0.1.1
       '@jridgewell/trace-mapping': 0.3.17
-
-  /@babel/code-frame@7.18.6:
-    resolution: {integrity: sha512-TDCmlK5eOvH+eH7cdAFlNXeVJqWIQ7gW9tY1GJIpUtFb6CmjVyq2VM3u71bOyR8CRihcCgMUYoDNyLXao3+70Q==}
-    engines: {node: '>=6.9.0'}
-    requiresBuild: true
-    dependencies:
-      '@babel/highlight': 7.18.6
-    dev: true
-    optional: true
 
   /@babel/code-frame@7.21.4:
     resolution: {integrity: sha512-LYvhNKfwWSPpocw8GI7gpK2nq3HSDuEPC/uSYaALSJu9xjsalaaYFOq0Pwt5KmVqwEbZlDu81aLXwBOmD/Fv9g==}
@@ -3476,6 +3471,15 @@ packages:
       eslint: 8.39.0
     dev: true
 
+  /eslint-plugin-promise@7.1.0(eslint@8.39.0):
+    resolution: {integrity: sha512-8trNmPxdAy3W620WKDpaS65NlM5yAumod6XeC4LOb+jxlkG4IVcp68c6dXY2ev+uT4U1PtG57YDV6EGAXN0GbQ==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    peerDependencies:
+      eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
+    dependencies:
+      eslint: 8.39.0
+    dev: true
+
   /eslint-plugin-unicorn@44.0.2(eslint@8.39.0):
     resolution: {integrity: sha512-GLIDX1wmeEqpGaKcnMcqRvMVsoabeF0Ton0EX4Th5u6Kmf7RM9WBl705AXFEsns56ESkEs0uyelLuUTvz9Tr0w==}
     engines: {node: '>=14.18'}
@@ -6325,7 +6329,7 @@ packages:
       rollup: 3.20.7
       typescript: 5.0.4
     optionalDependencies:
-      '@babel/code-frame': 7.18.6
+      '@babel/code-frame': 7.21.4
     dev: true
 
   /rollup-plugin-visualizer@5.9.0(rollup@3.20.7):
